@@ -1,3 +1,5 @@
+/* Flexible dates */
+
 .flightSelectionFaresCalendar .faresCalendar td {
 	font-size: 14px !important;
 }
@@ -33,4 +35,30 @@ div.searchRecapBlock, td.colPromo, td.colSel, div.pageTitleArea {
 
 .flightSelectionFaresCalendar {
 	padding-top: 6px !important;
+}
+
+/* Fixed dates */
+
+.flightSelectionByAirline .headBlock h2 {
+	font-size: 15px !important;
+	color: #204780 !important;
+	font-weight: bold !important;
+	font-family: 'museo_sans700', Tahoma, Verdana, Segoe, sans-serif !important;
+}
+
+span.routeSeparator:before {
+	content: "-";
+}
+
+span.routeSeparator {
+	background: none !important;
+	display: inline !important;
+}
+
+.flightSelectionOWC .flightNav {
+	margin-top: 8px !important;
+}
+
+.calendarTabsArea .tabsTable td.selectedTab .date {
+	font-size: 12px !important;
 }
