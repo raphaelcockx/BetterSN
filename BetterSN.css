@@ -1,0 +1,12 @@
+.flightSelectionFaresCalendar .faresCalendarLegend .colLow, .flightSelectionCalendar .calendarLegend .colLow {
+	background: #fff url(chrome-extension://__MSG_@@extension_id__/i-calendar-legend-low.png) 0 50% no-repeat !important;
+}
+
+td.lowest, td.lowest.promo {
+	background-color: #ff0 !important;
+	background-image: none !important;
+}
+
+td.lowest.promo table tbody tr td div.colPrice a {
+		color: #002d69 !important;
+}
