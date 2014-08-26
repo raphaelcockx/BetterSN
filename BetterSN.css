@@ -10,3 +10,7 @@ td.lowest, td.lowest.promo {
 td.lowest.promo table tbody tr td div.colPrice a {
 		color: #002d69 !important;
 }
+
+div.searchRecapBlock {
+	display: none;
+}
