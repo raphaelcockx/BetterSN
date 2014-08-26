@@ -1,3 +1,11 @@
+.flightSelectionFaresCalendar .faresCalendar td {
+	font-size: 14px !important;
+}
+
+tr.inboundHead {
+	line-height: 0.9;
+}
+
 .flightSelectionFaresCalendar .faresCalendarLegend .colLow, .flightSelectionCalendar .calendarLegend .colLow {
 	background: #fff url(chrome-extension://__MSG_@@extension_id__/i-calendar-legend-low.png) 0 50% no-repeat !important;
 }
@@ -19,6 +27,10 @@ div.colPrice a {
 	color: #002d69 !important;
 }
 
-div.searchRecapBlock, td.colPromo, td.colSel {
+div.searchRecapBlock, td.colPromo, td.colSel, div.pageTitleArea {
 	display: none;
+}
+
+.flightSelectionFaresCalendar {
+	padding-top: 6px !important;
 }
