@@ -6,7 +6,7 @@
 	"content_scripts": [
     	{
       	"matches": ["https://tdp.brusselsairlines.com/*"],
-      	"js": ["jQuery.js", "background.js"],
+      	"js": ["jQuery.js", "moment-with-locales.min.js", "background.js"],
       	"css": ["BetterSN.css"]
     	}
     ],
