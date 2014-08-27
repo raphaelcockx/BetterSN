@@ -10,5 +10,5 @@
       	"css": ["BetterSN.css"]
     	}
     ],
-    "web_accessible_resources": ["i-calendar-legend-low.png"]
+    "web_accessible_resources": ["i-calendar-legend-low.png", "spr-prev-next-week.png"]
 }

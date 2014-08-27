@@ -37,7 +37,9 @@ div.searchRecapBlock, td.colPromo, td.colSel, div.pageTitleArea {
 	padding-top: 6px !important;
 }
 
-/* Fixed dates */
+/*
+Fixed dates
+*/
 
 .flightSelectionByAirline .headBlock h2 {
 	font-size: 15px !important;
@@ -59,6 +61,22 @@ span.routeSeparator {
 	margin-top: 8px !important;
 }
 
+/* Date picker at the top */
+
+.calendarTabsArea .tabsTable td div div {
+	padding: 11px 0 10px !important;
+}
+
 .calendarTabsArea .tabsTable td.selectedTab .date {
 	font-size: 12px !important;
+}
+
+
+.flightSelectionOWC .flightNav .prevLink a, .flightSelectionOWC .flightNav .nextLink a {
+	background-image: url(chrome-extension://__MSG_@@extension_id__/spr-prev-next-week.png) !important;
+	height: 35px !important;
+}
+
+.flightSelectionOWC .flightNav .nextLink a {
+	background-position: 0 -40px !important;
 }
