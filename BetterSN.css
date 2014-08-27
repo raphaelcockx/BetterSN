@@ -12,8 +12,8 @@ tr.inboundHead {
 	background: #fff url(chrome-extension://__MSG_@@extension_id__/i-calendar-legend-low.png) 0 50% no-repeat !important;
 }
 
-div.colPrice a {
-		color: #002d69 !important;
+div.date, div.colPrice a, .flightSelectionCalendar .calendarTable TD.selected TD {
+	color: #002d69 !important;
 }
 
 .lowest, .lowest.promo {
@@ -78,4 +78,44 @@ span.routeSeparator {
 
 .flightSelectionOWC .flightNav .nextLink a {
 	background-position: -35px -40px !important;
+}
+
+/* Smaller font for prices */
+
+.flightSelectionByAirline .resultsArea TBODY .colCost td, .flightSelectionByAirline .resultsArea TBODY .colCost td div {
+	font-size: 14px !important;
+}
+
+/* Radio button next to price */
+
+.flightSelectionByAirline .resultsArea TBODY .colCost div td .colRadio {
+	position: relative !important;
+	margin-left: -29px !important;
+}
+
+.flightSelectionByAirline .resultsArea .colCost .colPrice {
+	padding-top: 2px !important;
+}
+
+/* No wasted space in product headers */
+
+.flightSelectionByAirline .resultsArea thead td.colCost_BUDGET {
+	background: #fff !important;
+	padding-top: 0 !important;
+	border: 3px solid #ff5d3d;
+}
+
+.flightSelectionByAirline .resultsArea thead td.colCost_COMFORT {
+	background: #e33416 !important;
+	padding-top: 0 !important;
+}
+
+.flightSelectionByAirline .resultsArea thead td.colCost_BEST {
+	background: #0f3973!important;
+	padding-top: 0 !important;
+}
+
+.flightSelectionByAirline .resultsArea thead td.colCost_BUSINESS {
+	background: #3f444c !important;
+	padding-top: 0px !important;
 }
