@@ -71,12 +71,11 @@ span.routeSeparator {
 	font-size: 12px !important;
 }
 
-
 .flightSelectionOWC .flightNav .prevLink a, .flightSelectionOWC .flightNav .nextLink a {
 	background-image: url(chrome-extension://__MSG_@@extension_id__/spr-prev-next-week.png) !important;
 	height: 35px !important;
 }
 
 .flightSelectionOWC .flightNav .nextLink a {
-	background-position: 0 -40px !important;
+	background-position: -35px -40px !important;
 }

@@ -8,7 +8,7 @@ $(function(){
 		$(this).html('<b>'+$(this).find('b').text()+'</b>');
 	})
 
-	/* Experimental */
+	/* Show the number of nights when hovering over a price */
 	$('table#faresCalendar td[onclick]').each(function() {
 		var dates = $(this).attr('onclick').split("'");
 		var outboundDate = moment(dates[1], 'DD/MM/YYYY');
