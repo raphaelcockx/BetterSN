@@ -18,6 +18,14 @@ BetterSN makes changes to the results page for both flexible as well as fixed da
 
 What does all that tweaking look like on the screen? You'll be the judge.
 
+This is what a flexible search looks like - 'before' on the left, 'after' on the right (click to zoom):
+
+![flexible](https://raw.githubusercontent.com/raphaelcockx/BetterSN/master/examples/Flexible.png)
+
+And this is what happens to a fixed search - again, 'before' on te left, 'after' on the right:
+
+![flexible](https://raw.githubusercontent.com/raphaelcockx/BetterSN/master/examples/Fixed.png)
+
 ##To do
 
 Quite a bit. It feels like I covered most of the basis stuff that bothered me, but I'm sure there will be other (small) things to tackle in the near future. Stay tuned.
