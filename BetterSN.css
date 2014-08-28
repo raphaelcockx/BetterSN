@@ -119,3 +119,9 @@ span.routeSeparator {
 	background: #3f444c !important;
 	padding-top: 0px !important;
 }
+
+/* Tighter rows */
+
+.location {
+	padding-bottom: 5px !important;
+}
