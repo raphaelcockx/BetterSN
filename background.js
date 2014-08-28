@@ -17,4 +17,11 @@ $(function(){
 		$(this).attr('title', nights+' nights');
 	})
 
+	/* Remove airport codes where the full name is already shown */
+	$('div.resultsArea div.location').each(function() {
+		var location = $(this).text().split(/[()]/);
+		$(this).text(location[0]);
+		$(this).attr('title', location[1]);
+	})
+
 });
