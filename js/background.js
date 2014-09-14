@@ -33,4 +33,7 @@ $(function(){
 	});
 	var lowest = Math.min.apply(Math,prices);
 	$('td.available[data-price=\''+lowest+'\']').addClass('lowest');
+
+	/* Shorten the N/A text a bit, so we got room for more of our own stuff */
+	$('td.colNA').text('Not available');
 });
