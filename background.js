@@ -24,4 +24,13 @@ $(function(){
 		$(this).attr('title', location[1]);
 	})
 
+	/* When searching for oneways, there is no reliable class available to detect the lowest price. So let's add it */
+	var prices=[];
+	$('td.available').each(function() {
+		var price = $(this).find('div.colPrice').text().replace(/[^0-9.]/g,'');
+		$(this).attr('data-price', price);
+		prices.push(price);
+	});
+	var lowest = Math.min.apply(Math,prices);
+	$('td.available[data-price=\''+lowest+'\']').addClass('lowest');
 });

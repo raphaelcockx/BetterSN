@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "BetterSN",
 	"short_name": "bettersn",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"content_scripts": [
     	{
       	"matches": ["https://tdp.brusselsairlines.com/*"],
