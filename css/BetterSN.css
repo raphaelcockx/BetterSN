@@ -16,7 +16,7 @@ div.date, div.colPrice a, .flightSelectionCalendar .calendarTable TD.selected TD
 	color: #002d69 !important;
 }
 
-.lowest, .lowest.promo {
+.lowest, .lowest.promo, .lowest.selected {
 	background-color: #f9d423 !important;
 	background-image: none !important;
 }
