@@ -6,8 +6,8 @@
 	"content_scripts": [
     	{
       	"matches": ["https://tdp.brusselsairlines.com/*"],
-      	"js": ["js/jQuery.js", "js/jquery.nouislider.min.js", "js/moment-with-locales.min.js", "js/background.js"],
-      	"css": ["css/jquery.nouislider.min.css", "css/BetterSN.css"]
+      	"js": ["js/jQuery.js", "js/moment-with-locales.min.js", "js/background.js"],
+      	"css": ["css/BetterSN.css"]
     	}
     ],
     "web_accessible_resources": ["i-calendar-legend-low.png", "spr-prev-next-week.png"],
