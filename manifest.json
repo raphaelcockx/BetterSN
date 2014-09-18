@@ -2,15 +2,15 @@
 	"manifest_version": 2,
 	"name": "BetterSN",
 	"short_name": "bettersn",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"content_scripts": [
     	{
       	"matches": ["https://tdp.brusselsairlines.com/*"],
-      	"js": ["js/jQuery.js", "js/moment-with-locales.min.js", "js/background.js"],
+      	"js": ["js/jQuery.js", "js/jquery.jeditable.mini.js", "js/moment-with-locales.min.js", "js/background.js"],
       	"css": ["css/BetterSN.css"]
     	}
     ],
-    "web_accessible_resources": ["i-calendar-legend-low.png", "spr-prev-next-week.png"],
+    "web_accessible_resources": ["i-calendar-legend-low.png", "i-calendar-legend-lower.png", "spr-prev-next-week.png"],
     "icons": {
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"

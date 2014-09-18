@@ -125,3 +125,43 @@ span.routeSeparator {
 .location {
 	padding-bottom: 5px !important;
 }
+
+/* Max price */
+
+td.maxPrice {
+	width: 64px;
+}
+
+.flightSelectionFaresCalendar .faresCalendarLegend .colLower, .flightSelectionCalendar .calendarLegend .colLower {
+	background: #fff url(chrome-extension://__MSG_@@extension_id__/i-calendar-legend-lower.png) 0 50% no-repeat;
+}
+
+.flightSelectionFaresCalendar .faresCalendarLegend .colLower, .flightSelectionCalendar .calendarLegend .colLower {
+	padding: 6px 30px 5px 49px;
+	font-weight: normal;
+	color: #002d69;
+}
+
+.lower, .lower.promo, .lower.selected {
+	background-color: #ffecaa !important;
+	background-image: none !important;
+}
+
+td.maxPriceLabel {
+	font-family: 'museo_sans700', Tahoma, Verdana, Segoe, sans-serif;
+	font-size: 14px;
+}
+
+td.maxPriceLabel button {
+	background-color: #d54229;
+	color: white;
+	font-family: 'museo_sans700', Tahoma, Verdana, Segoe, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	border: 0;
+	height: 21px;
+}
+
+.colLowerHidden {
+	display: none;
+}
