@@ -3,6 +3,10 @@ var lowest, highest;
 
 $(function(){
 
+	/* Figure out what currency we're working with */
+
+	var currency = $('div.commentBlock p').text().match(/Prices in ([A-Z]{3}) are/)[1];
+
 	/* Remove the unnecessary 'Departure' and 'Return' labels in flexible search */
 	$('tr.inboundHead th:not(.faresCalendarLinkPrevOut)').each(function() {
 		$(this).html('<b>'+$(this).find('b').text()+'</b>');
@@ -50,7 +54,7 @@ $(function(){
 	/* Allow users to filter by maximum price */
 	$('td.colNA').text('Not available');
 	$('<td class="colLower colLowerHidden">Below your maximum price</td><td class="colLowerSamp colLowerHidden"><div class="lowerSample">&nbsp;</div></td>').insertAfter('td.colLowSamp');
-	$('<td class="maxPrice">Max price:</td><td class="maxPriceLabel">€ <span id="maxPriceLabelValue"></span></td>').insertAfter('td.colNASamp');
+	$('<td class="maxPrice">Max price:</td><td class="maxPriceLabel">'+currency+' <span id="maxPriceLabelValue"></span></td>').insertAfter('td.colNASamp');
 	$('span#maxPriceLabelValue').text(Math.ceil(lowest)).editable(function(v) {
 		if(v<lowest) v=Math.ceil(lowest);
 		$('td.lower').removeClass('lower');
